@@ -1,10 +1,10 @@
 
 def levitation_quiz
-  puts "What's Up, Doc?"
+  puts "What is the spell that enacts levitation?"
   answer = gets.chomp!
-  break if answer == "STOP"
+  break if answer == "Wingardium Leviosa"
 end
- puts "Okay, okay, jeez. I'll stop. Sorry."
+ puts "You passed the quiz!"
 end
 
 
